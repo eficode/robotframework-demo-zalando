@@ -23,9 +23,9 @@ Adding Item To Shopping Cart Should Display It's Price Correctly
     Add Random Item To Shopping Cart
     ${article price}=    Get Text    articlePrice
     Open Shopping Cart
-    Verify Shopping Cart Item Price Correctly    ${article price}
+    Verify Shopping Cart Item Price Is Displayed Correctly    ${article price}
 
-Verify Shopping Cart Item Price Correctly
+Verify Shopping Cart Item Price Is Displayed Correctly
    [Arguments]    ${article price}
    Element Should Contain    css=strong.grandTotal    ${article price}
 
