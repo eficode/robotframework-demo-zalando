@@ -12,7 +12,6 @@ Adding Items To Shopping Cart Displays Price Correctly
     Adidas Superstar
     Converse Chuck Taylor
     Levis T-shirt
-    Fred Perry Polo
 
 *** Keywords ***
 Adding Item To Shopping Cart Should Display It's Price Correctly
