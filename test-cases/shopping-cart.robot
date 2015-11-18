@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    common-resource.robot
+Resource    ..${/}resources${/}common-resource.robot
 
 *** Variables ***
 ${SHOPPING CART TITLE}=   Ostoskori
