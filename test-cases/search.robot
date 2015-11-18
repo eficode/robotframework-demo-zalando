@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    ..${/}resources${/}resources${/}common-resource.robot
+Resource    ..${/}resources${/}common-resource.robot
 Test Setup    Open Browser    ${URL}
 Test Teardown    Close Browser
 
