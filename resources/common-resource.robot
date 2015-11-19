@@ -20,3 +20,11 @@ Type In Search Word
 
 Click Search Button
     Click Element    searchButtonTopSubmit
+
+Click id 
+    [Arguments]     ${id}
+    Click Element     id=${id}
+
+Fill id
+    [Arguments]     ${id}         ${fill}
+    Input Text        id=${id}       ${fill}
